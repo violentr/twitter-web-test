@@ -1,0 +1,163 @@
+/* Reset Css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+body {
+background:url('/img/twitter-clouds.jpg')no-repeat;
+
+}
+
+#header {
+height:40px;
+background:url('/img/hd-bg.png');
+margin-bottom:10px;
+}
+
+#header li{
+font-size:18px; 
+margin-top:10px;
+margin-left:30px;
+
+display:inline-block;
+
+}
+
+.nav-bar{
+
+margin-left:170px;
+}
+
+#container {
+
+width: 850px;
+background-color:hsla(0,10%,0%,0.02);
+margin: auto;
+}
+
+
+#header a {
+color:white;
+text-decoration: none;
+}
+
+.box {
+border-radius:15px;
+background-color:#f9f9f9; 
+width:330px;
+height:150px;
+}
+.box img {
+margin-left:10px;
+margin-top: 10px;
+
+
+}
+.line h2 {
+margin-bottom:-30px;
+margin-left: 42px;
+font-size: 18px;
+line-height: 150%;
+border-bottom: 1px solid #e8e8e8; 
+;
+}
+
+.twit-box {
+height:200px;
+width:100%;
+}
+
+.twit-box label {
+text-align: right;
+}
+.twit-box img {
+margin-left:10px;
+}
+.twit-box p {
+margin-bottom:-15px;
+font-size:16px;
+font-weight: bold;
+margin-left:65px;
+text-align:left;
+}
+
+.twit-box h3 {
+margin-bottom:-15px;
+font-size:15px;
+margin-left:100px;
+color:silver;
+text-align:left;
+
+}
+
+
+
+.col_1 {
+margin-top:20px;
+vertical-align: top;
+width: 450px;
+border-radius: 15px;
+background-color:white;
+margin: auto;
+height: 700px;
+display: inline-block;
+
+}
+.col_2 {
+padding:10px;
+width: 330px;
+/*background-color:green;*/
+/*margin-right20px;*/
+height: 700px;
+display: inline-block;
+}
+.col_1 h2 {
+font-family: Helvetica; 
+margin-top:10px;
+padding-left:10px; 
+font-size: 18px;
+font-weight: bold;
+line-height: 200%;
+border-bottom: 1px solid #e8e8e8;
+margin:10px;
+}
+
+hr{
+border:1px solid green;
+
+
+}
